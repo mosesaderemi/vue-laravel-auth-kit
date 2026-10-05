@@ -1,0 +1,35 @@
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+*.swp
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Logs
+*.log
+# Node
+node_modules/
+dist/
+build/
+.next/
+.expo/
+.turbo/
+coverage/
+npm-debug.log*
+yarn-error.log*
+# PHP and Laravel
+/vendor/
+/node_modules/
+/public/build/
+/public/hot
+/storage/*.key
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
